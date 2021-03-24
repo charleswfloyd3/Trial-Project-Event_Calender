@@ -1,0 +1,76 @@
+.day-container-outer {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+	margin-top: -16px;
+	width: 90vw;
+	border: 1px solid rgb(2, 9, 105);
+}
+
+.day-container-inner {
+	border: 1px solid rgb(2, 9, 105);
+	width: 14.17vw;
+}
+
+.table {
+	width: 100%;
+	height: 83vh;
+	table-layout: fixed;
+	margin: 0 auto;
+	margin-top: -16px;
+	background-color: whitesmoke;
+}
+tbody {
+	table-layout: fixed;
+}
+tr {
+	max-height: 100px;
+}
+td {
+	border: 0.01px solid blue;
+	max-height: 100px;
+}
+.today {
+	background-color: rgb(2, 9, 105);
+	color: #fff;
+	padding-left: 9vw;
+	margin-top: -10vh;
+	opacity: 0.9;
+	max-height: 100px;
+}
+.this-month {
+	padding-left: 9vw;
+	margin-top: -10vh;
+	font-weight: 600;
+	height: 10vh;
+}
+.in-prev-month,
+.in-next-month {
+	opacity: 0.25;
+	font-weight: 600;
+	height: 10vh;
+
+	padding-left: 12vw;
+	padding-bottom: -10vh;
+}
+.userData {
+	max-height: 5.83vh;
+	display: block;
+	margin: 0 auto;
+	margin-left: -10vw;
+	left: 0;
+}
+.userSchedule {
+	text-align: center;
+	list-style: none;
+}
+.userSchedule li {
+	margin-left: -1vw;
+	margin-top: -2vh;
+	margin-bottom: 3vh;
+}
+.eventItem {
+}
+.date {
+	margin-top: -1vh;
+}
